@@ -2,7 +2,8 @@
 pragma solidity ^0.8.0;
 
 import {IACLManager} from 'aave-address-book/AaveV3.sol';
-import {IAgentHub, IAgentConfigurator} from '../interfaces/IAgentHub.sol';
+import {IAgentHub} from '../interfaces/IAgentHub.sol';
+import {IAgentConfigurator} from '../interfaces/IAgentConfigurator.sol';
 import {IRangeValidationModule} from '../interfaces/IRangeValidationModule.sol';
 
 /// @title AgentHubOnboarding
